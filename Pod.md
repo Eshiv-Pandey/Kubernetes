@@ -28,7 +28,7 @@ In most real-world use cases, a Pod runs **one primary container**.
 - Can run multiple containers
 - Managed by Kubernetes
 - Shared networking and storage
-- Self-healing and reschedulable
+- Self-healing(via replica sets) and reschedulable
 
 ### Key Notes
 - Pods are declarative, meaning the desired state is defined in a YAML file.
