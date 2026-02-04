@@ -280,4 +280,8 @@ kubectl delete pod nginx
 * Always use Deployments for real applications.
   Deployments will be discussed later by me only :)
 
+## Important Resources you can follow
+Kubernetes officaial Documentation https://kubernetes.io/docs/concepts/workloads/pods/
+GeeksforGeeks https://www.geeksforgeeks.org/devops/introduction-to-kubernetes-k8s/
+
 ```
