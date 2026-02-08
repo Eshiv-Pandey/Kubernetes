@@ -70,7 +70,7 @@ Minikube is a tool that allows you to run a **single-node Kubernetes cluster loc
 ## Required Tools
 
 To work with Kubernetes locally, you need:
-1. kubectl
+1. kubectl (Command line tool for K8s)
 2. Minikube
 
 ---
