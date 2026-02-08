@@ -4,13 +4,15 @@ A Service in Kubernetes is an abstraction that provides a stable network identit
 
 ## Pods are ephemeral (IP changes on restart), but a Service gives:
 
-* A stable IP / DNS name
+* **A stable IP / DNS name**
 
-* Load balancing across Pods
+* **Load balancing across Pods**
 
-* Service discovery
+* **Service discovery** : Service discovery in Kubernetes means **Pods find each other using service names instead of IP addresses**.
+In k8s, each service uses labels to tag pods. The service defines selectors the match these labels.K8s automatically track all pods who's labels matches with the selectors. Traffic sent to the service is load balanced to these matching pods, enabling service discovery without hardcoded IPs.
+
   
-* Expose to external world : Cluster IP, NodePort Mode IP, Load Balancer
+* **Expose to external world** : Cluster IP, NodePort Mode IP, Load Balancer
 
 In short:
 
@@ -52,6 +54,7 @@ Users/Clients can access apps/services via this external Ip.
 No load balancing
 
 Direct Pod DNS resolution (used in StatefulSets)
+
 
 ## Offtopic --> How auto-scaling happens in Kubernetes (under the hood)
 
