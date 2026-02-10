@@ -66,10 +66,13 @@ Scaling is handled by controllers.
 ## Popular Interview Questions -->
 How to add Auto-Scaling and Auto-Healing Capabilities ? 
 -We use Deployments
+
 What is a namespace in Kubernetes ?
 -A namespace in kubernetes is a logical seperation of resources, networking policies and RBAC so that multiple project teams can work on the same k8s cluster without interupting the work of each other .
+
 Role of kube-proxy ?
 -Ensures services can communicate with each other.
+
 Difference btw Docker Swarm & Kubernetes ?
 -Docker Swarm : simple easy to use, suits small-medium sized apps, has basic orchestration and offers limited tools
 -Kubernetes : complex but powerful, handles large sized apps easily, offers auto-scaling and auto-healing along with huge number of tools and excellent community support.
