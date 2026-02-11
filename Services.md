@@ -77,3 +77,5 @@ Difference btw Docker Swarm & Kubernetes ?
 -Docker Swarm : simple easy to use, suits small-medium sized apps, has basic orchestration and offers limited tools
 -Kubernetes : complex but powerful, handles large sized apps easily, offers auto-scaling and auto-healing along with huge number of tools and excellent community support.
 
+## What's Next??
+We will deep dive into k8s, learn Ingress, RBAC, k8s custom resources etc all will be taught by me only :)
